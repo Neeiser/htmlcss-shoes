@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Comportamento del scroll quando premo i link anchor */
 }
 
  .container{
@@ -13,7 +13,7 @@
 }
 
 nav{
-    position: fixed;
+    position: fixed; /* Così la nav bar rimane in alto a destra */
     top: 50px;
     right: 20px;
     z-index: 1;
@@ -31,6 +31,7 @@ nav a{
     line-height: 50px;
 }
 
+/* Si attiva quando premo con il mouse sul <a> */
 nav a:active{
     background-color: darkgray;
 }
@@ -54,7 +55,7 @@ nav a:nth-child(2){
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /* Per centrarla per bene */
 }
 
 h2{

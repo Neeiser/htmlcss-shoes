@@ -4,3 +4,20 @@
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+.block{
+    height: 100vh;
+    width: 100%;
+}
+
+.top{
+    background-color: red;
+}
+
+.center{
+    background-color: green;
+}
+
+.bottom{
+    background-color: yellow;
+}

@@ -3,11 +3,44 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
+    scroll-behavior: smooth;
 }
 
  .container{
     height: 100vh;
     width: 100%;
+    position: relative;
+}
+
+nav{
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    z-index: 1;
+}
+
+nav a{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav a:active{
+    background-color: darkgray;
+}
+
+nav a:hover{
+    box-shadow: 0 5px 10px 0;
+}
+
+nav a:nth-child(2){
+    margin: 0 20px;
 }
 
 .block{
@@ -17,6 +50,7 @@
 }
 
 .shoes{
+    width: 800px;
     position: absolute;
     top: 50%;
     left: 50%;
